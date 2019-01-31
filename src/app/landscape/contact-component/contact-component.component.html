@@ -1,0 +1,43 @@
+<nav class="nav flex-column">
+  <img class="img-fluid img-profile mx-auto mb-1 rounded-circle row" src="../../../assets/images/contact-photo.png" alt="">
+
+  <div class="profile-info">
+    <h1>{{'profile.name' | translate }}</h1>
+    <small>{{'profile.career' | translate}}</small>
+  </div>
+
+  <div class="contact-data">
+    <h3>{{'contact.title' | translate}}</h3>
+    <div class="row section">
+      <i class="fas fa-map-marker-alt float-left fa-lg"></i>
+      <div class=" float-left">
+        <h4>{{'contact.data.address.title' | translate}}</h4>
+        <span>{{'contact.data.address.location' | translate}}, {{'contact.data.address.city' |
+          translate}}/{{'contact.data.address.country' | translate}}</span>
+      </div>
+    </div>
+    <div class="row section">
+      <i class="fas fa-mobile-alt float-left fa-lg"></i>
+      <div class=" float-left">
+        <h4>{{'contact.data.phone.title' | translate}}</h4>
+        <span>{{'contact.data.phone.countryIndicator' | translate}} {{'contact.data.phone.number' | translate}}</span>
+      </div>
+    </div>
+    <div class="row section">
+      <i class="fas fa-envelope float-left"></i>
+      <div class=" float-left">
+        <h4>{{'contact.data.email.title' | translate}}</h4>
+        <span><a href="mailto:{{'contact.data.email.account' | translate}}">{{'contact.data.email.account' |
+            translate}}</a></span>
+      </div>
+    </div>
+    <div class="row section">
+      <i class="fab fa-skype float-left fa-lg"></i>
+      <div class=" float-left">
+        <h4>{{'contact.data.skype.title' | translate}}</h4>
+        <span>{{'contact.data.skype.account' | translate}}</span>
+      </div>
+    </div>
+  </div>
+  <app-language (select)="selectLanguage.emit($event)" [selectedLanguage]="selectedLanguage" [availableLanguages]="availableLanguages"></app-language>
+</nav>

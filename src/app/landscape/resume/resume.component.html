@@ -1,0 +1,6 @@
+<div class="container-fluid landing">
+  <div class="row">
+    <app-contact-component (selectLanguage)="landscapeCore.selectLanguage($event)" [selectedLanguage]="landscapeCore.selectedLang$ | async"
+      [availableLanguages]="landscapeCore.availableLanguages$ | async"></app-contact-component>
+  </div>
+</div>

@@ -1,0 +1,37 @@
+{
+  "general": {
+    "languages": {
+      "title": "Idiomas:",
+      "es": "Español",
+      "en": "Inglés"
+    }
+  },
+  "profile": {
+    "name": "Yeison Restrepo",
+    "career": "Desarrollador Front-End"
+  },
+  "contact": {
+    "title": "CONTACTO",
+    "data": {
+      "address": {
+        "title": "DIRECCIÓN",
+        "location": "CRA 27D # 72W2 - 18",
+        "city": "Cali",
+        "country": "Colombia"
+      },
+      "phone": {
+        "title": "TELÉFONO",
+        "countryIndicator": "(+57)",
+        "number": "320 604 8488"
+      },
+      "email": {
+        "title": "CORREO ELECTRÓNICO",
+        "account": "yeison.restrepo.r@gmail.com"
+      },
+      "skype": {
+        "title": "SKYPE",
+        "account": "yeisonrestrepo23"
+      }
+    }
+  }
+}

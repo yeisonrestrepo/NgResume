@@ -1,0 +1,16 @@
+{
+  "localization": {
+    "languages": [{
+        "code": "es",
+        "name": "ES",
+        "culture": "es-ES"
+      },
+      {
+        "code": "en",
+        "name": "EN",
+        "culture": "en-EN"
+      }
+    ],
+    "defaultLanguage": "es"
+  }
+}
