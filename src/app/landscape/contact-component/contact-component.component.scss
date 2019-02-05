@@ -3,63 +3,52 @@
 @import "../../../assets/scss/_bootstrap-overrides.scss";
 
 .nav {
-  position: fixed;
-  top: 5vh;
-  left: 0;
 
-  display: flex;
-  flex-direction: column;
-
-  width: $sidebar-base-width;
-  height: 90%;
-  border-right: 3px solid $primary;
+  position: relative;
+  width: 100%;
+  padding-bottom: 0;
 
   .img-profile {
-    max-width: 8rem;
-    max-height: 8rem;
+    max-width: 50vw;
+    max-height: 50vw;
     border: 0.3rem solid fade-out($gray-600, 0.8);
+    margin: 1.5rem auto 0 !important;
   }
 
   .profile-info {
-    color: $gray-600;
-    font-family: 'Homenaje', sans-serif;
     text-align: center;
-    margin: 1rem 0;
-
-    h1,
-    small {
-      text-transform: uppercase;
-    }
+    font-family: 'Homenaje', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: $gray-700;
+    line-height: .5rem;
+    padding: 0;
+    padding-top: 1.3rem;
+    padding-bottom: 2rem;
 
     h1 {
-      font-size: 2rem;
-      padding: 0 2rem;
-      margin: 0;
-      letter-spacing: 3.5px;
-      font-weight: bolder;
+      font-size: 37pt;
+      margin: 0 auto;
     }
 
     small {
-      font-size: 1.2rem;
-      padding: 0 2.8rem;
-      letter-spacing: 1px
+      font-size: 22pt;
     }
-
   }
 
   .contact-data {
     background-color: $primary;
-    padding: 1rem 2.7rem;
-    font-family: 'Roboto', sans-serif;
     color: $white;
+    font-family: 'Roboto', sans-serif;
     line-height: .2rem;
+    padding: 2rem 2rem;
 
     h3 {
       text-transform: uppercase;
       font-size: 1.2rem;
-      margin: 0;
       margin-bottom: .7rem;
       letter-spacing: 3px;
+      margin: .4rem;
     }
 
     .section {
@@ -81,8 +70,9 @@
     }
 
     .section span {
-      font-size: 10.5pt;
+      font-size: 11pt;
       display: block;
+      letter-spacing: 1px;
 
       a {
         color: $white;

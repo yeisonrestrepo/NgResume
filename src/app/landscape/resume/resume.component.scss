@@ -1,3 +1,8 @@
 .landing {
-  padding: 3rem !important;
+  // padding: 3rem !important;
+
+  & .contact-component {
+    width: 100vw;
+
+  }
 }

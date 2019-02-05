@@ -1,5 +1,5 @@
 <div class="languages">
-  <span>{{'general.languages.title' | translate}}</span>
+  <div>{{'general.languages.title' | translate}}</div>
   <a href="#" *ngFor="let lang of availableLanguages" onclick="return false;" (click)="selectLanguage(lang)">
     <i class="flag-icon {{lang.icon}}" title="{{ ('general.languages.' + lang.code ) | translate}}"></i>
   </a>
