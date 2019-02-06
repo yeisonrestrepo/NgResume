@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Homenaje|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Homenaje|Open+Sans');
 @import "../../../assets/scss/_variables.scss";
 @import "../../../assets/scss/_bootstrap-overrides.scss";
 
@@ -11,7 +11,7 @@
   .img-profile {
     max-width: 50vw;
     max-height: 50vw;
-    border: 0.3rem solid fade-out($gray-600, 0.8);
+    border: 0.3rem solid fade-out($secondary, 0.8);
     margin: 1.5rem auto 0 !important;
   }
 
@@ -27,23 +27,23 @@
     padding-bottom: 2rem;
 
     h1 {
-      font-size: 37pt;
+      font-size: 30pt;
       margin: 0 auto;
     }
 
     small {
-      font-size: 22pt;
+      font-size: 18pt;
     }
   }
 
   .contact-data {
     background-color: $primary;
     color: $white;
-    font-family: 'Roboto', sans-serif;
     line-height: .2rem;
-    padding: 2rem 2rem;
+    padding: 2rem;
 
     h3 {
+      font-family: 'Homenaje', sans-serif;
       text-transform: uppercase;
       font-size: 1.2rem;
       margin-bottom: .7rem;
@@ -52,6 +52,7 @@
     }
 
     .section {
+      font-family: 'Open Sans', sans-serif;
       margin: 0 !important;
       margin-bottom: 1rem !important;
     }
@@ -65,14 +66,14 @@
     }
 
     .section h4 {
-      color: #B78E24;
+      color: $yellow;
       font-size: 12pt !important;
     }
 
     .section span {
-      font-size: 11pt;
+      font-size: 9pt;
       display: block;
-      letter-spacing: 1px;
+      letter-spacing: .5px;
 
       a {
         color: $white;

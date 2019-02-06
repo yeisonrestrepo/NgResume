@@ -3,4 +3,10 @@
     <app-contact-component class="contact-component" (selectLanguage)="landscapeCore.selectLanguage($event)"
       [selectedLanguage]="landscapeCore.selectedLang$ | async" [availableLanguages]="landscapeCore.availableLanguages$ | async"></app-contact-component>
   </div>
+  <div class="row">
+    <app-profile class="profile-component"></app-profile>
+    <app-skills class="skills-component"></app-skills>
+    <app-work-experience class="work-component"></app-work-experience>
+    <app-education class="education-component"></app-education>
+  </div>
 </div>

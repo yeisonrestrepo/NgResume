@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Homenaje|Open+Sans');
+
 .bg-primary {
   background-color: $primary !important;
 }
@@ -14,4 +16,22 @@ a {
   &:active {
     color: darken($primary, 15%);
   }
+}
+
+.card {
+
+  padding: 2rem;
+  margin: .7rem 0 .2rem 0;
+  width: 100vw;
+
+  .card-body {
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+    .card-title {
+      text-transform: uppercase;
+      font-family: 'Homenaje', sans-serif !important;
+    }
+  }
+
 }

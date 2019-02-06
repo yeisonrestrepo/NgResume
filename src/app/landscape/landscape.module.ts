@@ -7,9 +7,13 @@ import { ResumeComponent } from './resume/resume.component';
 import { LanguageComponent } from './language/language.component';
 import { LandscapeCore } from './landscape.core';
 import { TranslateModule } from '@ngx-translate/core';
+import { ProfileComponent } from './profile/profile.component';
+import { SkillsComponent } from './skills/skills.component';
+import { WorkExperienceComponent } from './work-experience/work-experience.component';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
-  declarations: [ContactComponentComponent, ResumeComponent, LanguageComponent],
+  declarations: [ContactComponentComponent, ResumeComponent, LanguageComponent, ProfileComponent, SkillsComponent, WorkExperienceComponent, EducationComponent],
   imports: [
     CommonModule,
     LandscapeRoutingModule,

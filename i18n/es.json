@@ -8,7 +8,11 @@
   },
   "profile": {
     "name": "Yeison Restrepo",
-    "career": "Desarrollador Front-End"
+    "career": "Desarrollador Front-End",
+    "extract": {
+      "title": "Perfil",
+      "text": "Me considero una persona responsable, participativa y emprendedora con muchas ganas de aplicar las competencias adquiridas y seguir aprendiendo cada vez más. De excelente presentación personal y de buenas relaciones interpersonales que tiene habilidad para trabajar en equipo o individualmente."
+    }
   },
   "contact": {
     "title": "CONTACTO",
@@ -33,5 +37,51 @@
         "account": "yeisonrestrepo23"
       }
     }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "description": "Lenguajes de programación, herramientas y características más usadas",
+    "charts": [{
+        "class": "javascript",
+        "icon": "&#xe681;"
+      },
+      {
+        "class": "html",
+        "icon": "&#xe636;"
+      },
+      {
+        "class": "css",
+        "icon": "&#xe649;"
+      },
+      {
+        "class": "angular",
+        "icon": "&#xe653;"
+      },
+      {
+        "class": "sass",
+        "icon": "&#xe64b;"
+      },
+      {
+        "class": "bootstrap",
+        "icon": "&#xe647;"
+      },
+      {
+        "class": "npm",
+        "icon": "&#xe61e;"
+      },
+      {
+        "class": "git",
+        "icon": "&#xe602;"
+      }
+    ],
+    "workflow": {
+      "title": "Flujo de trabajo",
+      "items": [
+        "Mobile-First, Diseño responsivo",
+        "Desarrollo ágil & Scrum",
+        "Equipos multifuncionales"
+      ]
+    }
+
   }
 }

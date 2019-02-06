@@ -1,0 +1,63 @@
+@import "../../../assets/scss/_variables.scss";
+@import "../../../assets/scss/_bootstrap-overrides.scss";
+
+.flex-wrapper,
+.workflow {
+  padding: 1rem;
+  text-align: left;
+
+  .skills {
+
+    padding: .2rem;
+    display: inline;
+
+    .skill-icon {
+      font-size: 33pt;
+
+    }
+
+    .javascript {
+      color: #F7DF1E;
+    }
+
+    .html {
+      color: #E44D26;
+    }
+
+    .css {
+      color: #026CB5;
+    }
+
+    .angular {
+      color: #C3002F;
+    }
+
+    .sass {
+      color: #CF649A;
+    }
+
+    .npm {
+      color: #CB3837;
+    }
+
+    .bootstrap {
+      color: #533D7D;
+    }
+
+    .git {
+      color: #F05133;
+    }
+  }
+
+  .list-item {
+    i {
+      padding-right: .3rem;
+      color: gold;
+    }
+
+    span {
+      font-size: 10.5pt;
+    }
+  }
+
+}

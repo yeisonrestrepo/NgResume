@@ -8,7 +8,11 @@
   },
   "profile": {
     "name": "Yeison Restrepo",
-    "career": "Front-End Developer"
+    "career": "Front-End Developer",
+    "extract": {
+      "title": "Profile",
+      "text": "Innovative, creative and a proven team player, I have a Technological Degree in analysis and development of information systems and I have 8+ years developing websites and corporate web apps for multiple companies in different economic sectors."
+    }
   },
   "contact": {
     "title": "CONTACT",
@@ -32,6 +36,51 @@
         "title": "SKYPE",
         "account": "yeisonrestrepo23"
       }
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "Programming languages & tools",
+    "charts": [{
+        "class": "javascript",
+        "icon": "&#xe681;"
+      },
+      {
+        "class": "html",
+        "icon": "&#xe636;"
+      },
+      {
+        "class": "css",
+        "icon": "&#xe649;"
+      },
+      {
+        "class": "angular",
+        "icon": "&#xe653;"
+      },
+      {
+        "class": "sass",
+        "icon": "&#xe64b;"
+      },
+      {
+        "class": "bootstrap",
+        "icon": "&#xe647;"
+      },
+      {
+        "class": "npm",
+        "icon": "&#xe61e;"
+      },
+      {
+        "class": "git",
+        "icon": "&#xe602;"
+      }
+    ],
+    "workflow": {
+      "title": "Workflow",
+      "items": [
+        "Mobile-First, Responsive design",
+        "Agile Development & Scrum",
+        "Cross Functional Teams"
+      ]
     }
   }
 }
