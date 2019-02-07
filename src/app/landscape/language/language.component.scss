@@ -41,3 +41,24 @@
     margin: 3px;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .languages {
+    position: relative;
+    padding: 1rem 2.7rem;
+    width: 100%;
+    margin: 0;
+    background-color: transparent;
+
+    span {
+      padding-top: 1rem;
+    }
+
+    i {
+      margin: .5rem;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%
+    }
+  }
+}

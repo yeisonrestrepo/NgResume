@@ -2,9 +2,7 @@
 @import "../../../assets/scss/_bootstrap-overrides.scss";
 
 .nav {
-
   position: relative;
-  width: 100%;
   padding-bottom: 0;
 
   .img-profile {
@@ -86,11 +84,73 @@
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 350px) and (max-width: 479px) {
+  .nav {
+    .contact-data {
+      .section span {
+        font-size: 11pt !important;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 480px) and (orientation: landscape) {
   .nav {
     .img-profile {
       max-width: 30vw;
       max-height: 30vw;
+      margin: .5rem auto -.5rem auto !important;
+    }
+
+    .profile-info {
+      h1 {
+        font-size: 35pt;
+        margin: 0 auto;
+      }
+
+      small {
+        font-size: 21pt;
+      }
+    }
+
+    .contact-data {
+
+      h3 {
+        font-size: 16pt;
+      }
+
+      .section h4 {
+        font-size: 14pt;
+      }
+
+      .section span {
+        font-size: 12pt;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .nav {
+    position: fixed;
+    top: 5vh;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    border-right: 3px solid $primary;
+    padding: 0;
+
+    .img-profile {
+      max-width: 8rem;
+      max-height: 8rem;
+      border: 0.3rem solid fade-out($gray-600, 0.8);
+    }
+
+    .profile-info {
+      width: 100%;
     }
   }
 }
