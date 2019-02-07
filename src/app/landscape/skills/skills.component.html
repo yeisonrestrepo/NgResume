@@ -17,11 +17,11 @@
       </div>
       <div class="workflow">
         <h5 class="card-subtitle mb-2 text-muted">{{ 'skills.workflow.title' | translate }}</h5>
-        <div class="row">
-          <div class="list-item" *ngFor="let item of 'skills.workflow.items' | translate">
+        <ul class="workflow-items">
+          <li class="list-item" *ngFor="let item of 'skills.workflow.items' | translate">
             <i class="fas fa-star"></i><span class="text-left">{{item}}</span>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
     </div>
   </div>

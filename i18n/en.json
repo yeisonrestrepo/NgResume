@@ -79,8 +79,52 @@
       "items": [
         "Mobile-First, Responsive design",
         "Agile Development & Scrum",
-        "Cross Functional Teams"
+        "Cross Functional Teams",
+        "Reactive Apps using RxJS Library"
       ]
     }
+  },
+  "work": {
+    "title": "Work Experience",
+    "jobs": [{
+        "title": "Intergrupo",
+        "position": "Software Development Engineer",
+        "from": "2018/08",
+        "to": "Present",
+        "description": "Agile development processes based on Scrum focused on Angular Front-end components development, Angular high-level architecture implementation."
+      },
+      {
+        "title": "Takum S.A.S",
+        "position": "Front-end Developer",
+        "from": "2017/12",
+        "to": "2018/08",
+        "description": "Lead the Front-end components development process that allowed improving the developed applications flow, as well as defining high-level architectures with a positive impact on the maintenance and scalability."
+      }
+    ]
+  },
+  "education": {
+    "title": "Educación",
+    "list": [{
+        "title": "Information Systems Analysis and Development",
+        "level": "Technological",
+        "year": "2009",
+        "institute": "Servicio Nacional de Aprendizaje (SENA)",
+        "description": "Technological degree that includes the application development, the database management and / or the requirement analysis."
+      },
+      {
+        "title": "Webmaster",
+        "level": "Technological specialization",
+        "year": "2012",
+        "institute": "Servicio Nacional de Aprendizaje (SENA)",
+        "description": "Webpage administration specialization, SEO, meta-tags and 2.0 app development."
+      },
+      {
+        "title": "Software Quality Models",
+        "level": "Course",
+        "year": "2016",
+        "institute": "Servicio Nacional de Aprendizaje (SENA)",
+        "description": "Implementation of models that allows to certify and guarantee the quality of their software processes and products."
+      }
+    ]
   }
 }

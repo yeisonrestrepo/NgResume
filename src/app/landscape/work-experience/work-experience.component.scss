@@ -1,2 +1,28 @@
 @import "../../../assets/scss/_variables.scss";
 @import "../../../assets/scss/_bootstrap-overrides.scss";
+
+
+.job-item {
+  margin: 2rem 0;
+  font-family: 'Open Sans', sans-serif;
+
+  .job-title {
+    font-family: 'Homenaje', sans-serif;
+    font-size: 14pt;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    line-height: 1rem;
+  }
+
+  .job-date {
+    font-family: 'Homenaje', sans-serif;
+    font-size: 12pt;
+    text-transform: uppercase;
+    color: $secondary;
+  }
+
+  .job-description {
+    margin-top: .5rem;
+  }
+}

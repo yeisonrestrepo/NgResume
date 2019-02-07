@@ -1,9 +1,12 @@
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <h5 class="card-title">{{ 'work.title' | translate }}</h5>
+    <div class="card-text">
+      <div class="job-item" *ngFor="let job of 'work.jobs' | translate">
+        <h5 class="job-title">{{job.title}}</h5>
+        <small class="job-date">{{job.from}} | {{job.to}}</small>
+        <div class="job-description text-justify">{{job.description}}</div>
+      </div>
+    </div>
   </div>
 </div>

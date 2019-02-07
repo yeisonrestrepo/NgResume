@@ -1,2 +1,31 @@
 @import "../../../assets/scss/_variables.scss";
 @import "../../../assets/scss/_bootstrap-overrides.scss";
+
+
+.study-item {
+  margin: 2rem 0;
+  font-family: 'Open Sans', sans-serif;
+
+  .study-title {
+    font-family: 'Homenaje', sans-serif;
+    font-size: 14pt;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    line-height: 1rem;
+  }
+
+  .study-institute,
+  .study-info {
+    font-family: 'Homenaje', sans-serif;
+    font-size: 12pt;
+    text-transform: uppercase;
+    color: $secondary;
+    display: block;
+    line-height: 1.2rem;
+  }
+
+  .study-description {
+    margin-top: .5rem;
+  }
+}

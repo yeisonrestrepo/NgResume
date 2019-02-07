@@ -1,9 +1,13 @@
 <div class="card">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <h5 class="card-title">{{ 'education.title' | translate }}</h5>
+    <div class="card-text">
+      <div class="study-item" *ngFor="let study of 'education.list' | translate">
+        <h5 class="study-title">{{study.title}}</h5>
+        <small class="study-institute">{{study.institute}}</small>
+        <small class="study-info">{{study.level}} | {{study.year}}</small>
+        <div class="study-description text-justify">{{study.description}}</div>
+      </div>
+    </div>
   </div>
 </div>
