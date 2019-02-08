@@ -154,3 +154,34 @@
     }
   }
 }
+
+@media screen and (min-width: 992px) {
+
+  .nav .profile-info {
+
+    h1 {
+      font-size: 27pt;
+    }
+
+    small {
+      font-size: 15pt;
+    }
+  }
+
+  .nav .contact-data {
+
+    padding: 1rem 2rem !important;
+
+    h3 {
+      font-size: 14pt;
+    }
+
+    .section h4 {
+      font-size: 12pt;
+    }
+
+    .section span {
+      font-size: 10pt;
+    }
+  }
+}

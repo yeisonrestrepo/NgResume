@@ -1,12 +1,12 @@
 <div class="container-fluid landing">
   <div class="row">
-    <app-contact-component class="col-sm-12 col-md-5 col-lg-2 contact-component" (selectLanguage)="landscapeCore.selectLanguage($event)"
+    <app-contact-component class="col-sm-12 col-md-5 col-lg-4 col-xl-3 contact-component" (selectLanguage)="landscapeCore.selectLanguage($event)"
       [selectedLanguage]="landscapeCore.selectedLang$ | async" [availableLanguages]="landscapeCore.availableLanguages$ | async"></app-contact-component>
-    <div class="col-sm-12 col-md-7 col-lg-10 resume-content">
-      <app-profile class="profile-component"></app-profile>
-      <app-skills class="skills-component"></app-skills>
-      <app-work-experience class="work-component"></app-work-experience>
-      <app-education class="education-component"></app-education>
+    <div class="col-sm-12 col-md-7 col-lg-8 col-xl-9 resume-content">
+      <app-profile class="profile-component pull-left col-sm-12 col-md-12 col-lg-6 "></app-profile>
+      <app-skills class="skills-component pull-right col-sm-12 col-md-12 col-lg-6"></app-skills>
+      <app-work-experience class="work-component pull-left col-sm-12 col-md-12 col-lg-6"></app-work-experience>
+      <app-education class="education-component pull-right col-sm-12 col-md-12 col-lg-6"></app-education>
     </div>
   </div>
 </div>

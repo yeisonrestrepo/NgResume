@@ -1,5 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Homenaje|Open+Sans');
+@import "assets/scss/resume.scss";
+
+* {
+  transition: all 0.3s ease;
+}
 
 body {
   background-color: #E2E2E2;

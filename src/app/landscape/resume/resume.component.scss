@@ -2,13 +2,27 @@
   padding: 0;
   margin: 0;
 
+  .contact-component,
   .resume-content {
     padding: 0;
+
+    .profile-component,
+    .skills-component,
+    .work-component,
+    .education-component {
+      padding: 0;
+    }
   }
 }
 
 @media screen and (min-width: 768px) {
   .landing .resume-content {
-    margin: 4vh -15px;
+    margin: 4vh -2px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .landing .resume-content {
+    margin: 5vh 0;
   }
 }
