@@ -1,0 +1,39 @@
+@import "../../../assets/scss/_variables.scss";
+@import "../../../assets/scss/_bootstrap-overrides.scss";
+
+.flex-wrapper {
+  padding: 1rem;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+
+  .tech {
+
+    padding: .2rem;
+    display: inline;
+
+    .tech-icon {
+      font-size: 33pt;
+
+    }
+
+    .angular {
+      color: #C3002F;
+    }
+
+    .sass {
+      color: #CF649A;
+    }
+
+    .bootstrap {
+      color: #533D7D;
+    }
+  }
+}
+
+.seeMore {
+
+
+  .tech-icon {
+    font-size: 18pt;
+  }
+}

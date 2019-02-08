@@ -11,9 +11,10 @@ import { ProfileComponent } from './profile/profile.component';
 import { SkillsComponent } from './skills/skills.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { EducationComponent } from './education/education.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
-  declarations: [ContactComponentComponent, ResumeComponent, LanguageComponent, ProfileComponent, SkillsComponent, WorkExperienceComponent, EducationComponent],
+  declarations: [ContactComponentComponent, ResumeComponent, LanguageComponent, ProfileComponent, SkillsComponent, WorkExperienceComponent, EducationComponent, AboutComponent],
   imports: [
     CommonModule,
     LandscapeRoutingModule,

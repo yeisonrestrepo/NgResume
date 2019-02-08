@@ -126,5 +126,28 @@
         "description": "Implementación de modelos que permitan certificar y garantizar la calidad de los productos y procesos de software."
       }
     ]
+  },
+  "about": {
+    "title": "Información adicional",
+    "description": "Esta página fue desarrollada con las siguientes tecnologías:",
+    "technologies": [{
+        "class": "angular",
+        "icon": "&#xe653;"
+      },
+      {
+        "class": "bootstrap",
+        "icon": "&#xe647;"
+      },
+      {
+        "class": "sass",
+        "icon": "&#xe64b;"
+      }
+    ],
+    "code": {
+      "seeMore": "El código de esta app se encuentra alojado en:",
+      "icon": "&#xe609;",
+      "urlText": "Github",
+      "url": "https://github.com/yeisonrestrepo/NgResume"
+    }
   }
 }
